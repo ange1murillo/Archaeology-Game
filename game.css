@@ -1,0 +1,77 @@
+.square{
+    font-size-adjust: auto;
+}
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 25px;
+border-color: grey;
+margin: auto;
+width: 100%;
+}
+
+body{
+background-color: #ccc;
+font-family: 'Open Sans', sans-serif;
+}
+
+.div{
+float: left;
+background-color: #ccc;
+width: 30%;
+margin-top: 5%;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .div{
+    background-color: #ccc;
+    width: 100%;
+    clear: both;
+  }
+
+}
+
+.div2{
+  float: left;
+  background-color: white;
+  width: 70%;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .div2{
+    float: left;
+    background-color: #fff;
+    width: 100%;
+    clear: both;
+  }
+
+}
+
+h1{
+text-align: center;
+}
+
+span{
+font-weight: bold;
+}
+
+p{
+text-align: center;
+font-size: 1em;
+}
+
+picture{
+  display: block;
+  margin: auto;
+}
+
+.arch{
+  max-width:55%;
+  display: block;
+  margin: auto;
+}
+
+.square{
+  text-align: center;
+}
